@@ -1,0 +1,13 @@
+{
+  "eslint.useESLintClass": true,
+  "eslint.useFlatConfig": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+}
