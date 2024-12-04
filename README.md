@@ -62,6 +62,18 @@ Open [http://localhost:3000](http://localhost:3000) to view the application in y
 
 ---
 
+### About `package-lock.json`
+
+This template does not include a `package-lock.json` file to ensure flexibility across different platforms (e.g., macOS ARM64, Linux x64, Windows ARM64).
+
+To generate a lock file for your environment, run:
+
+```bash
+npm install
+```
+
+---
+
 ## Directory Structure
 
 Here is a simplified directory structure to help you locate important files mentioned in this README:
