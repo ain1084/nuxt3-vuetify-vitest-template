@@ -1,5 +1,7 @@
 # Nuxt3 Vuetify Vitest Template
 
+![Test Status](https://github.com/ain1084/nuxt3-vuetify-vitest-template/actions/workflows/test.yml/badge.svg)
+
 This template provides a pre-configured development environment for Nuxt 3 with Vuetify, Vitest, and ESLint. It is designed to help beginners set up a Nuxt project with component testing support quickly and easily.
 
 ## Features
@@ -176,6 +178,41 @@ To view a coverage report:
    ```bash
    npm run test:coverage
    ```
+
+---
+
+## CI/CD with GitHub Actions
+
+This template includes a pre-configured GitHub Actions workflow for running tests automatically.
+
+### Workflow: `test.yml`
+
+The workflow is triggered on:
+
+- **Push events** to the `main` branch.
+- **Pull requests** targeting the `main` branch.
+- **Manual dispatch** through the GitHub Actions interface.
+
+The workflow performs the following steps:
+
+1. **Checkout code**: Clones the repository.
+2. **Set up Node.js**: Ensures the correct Node.js version is installed.
+3. **Install dependencies**: Installs all required packages.
+4. **Run tests**: Executes unit tests using Vitest.
+
+### Test Status Badge
+
+To display the test status badge for your repository, replace `[Your username]` and `[Your repository]` in the URL below:
+
+```markdown
+![Test Status](https://github.com/[Your username]/[Your repository]/actions/workflows/test.yml/badge.svg)
+```
+
+For example, if your GitHub username is ain1084 and your repository is nuxt3-vuetify-vitest-template, use:
+
+![Test Status](https://github.com/ain1084/nuxt3-vuetify-vitest-template/actions/workflows/test.yml/badge.svg)
+
+You can add this line at the top of your README.md to display the badge.
 
 ---
 
