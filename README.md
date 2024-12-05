@@ -20,6 +20,8 @@ You can use this template to create a new repository or clone it directly. Follo
 
 ### Option 1: Use the Template on GitHub
 
+  **Note**: After running `npm install`, if some symbols appear as unresolved errors in Visual Studio Code, try restarting Visual Studio Code to resolve the issue.
+
 1. Go to the [GitHub repository](https://github.com/ain1084/nuxt3-vuetify-vitest-template).
 
 2. Click on the **"Use this template"** button.
@@ -40,6 +42,8 @@ You can use this template to create a new repository or clone it directly. Follo
 ---
 
 ### Option 2: Clone Directly
+
+  **Note**: After running `npm install`, if some symbols appear as unresolved errors in Visual Studio Code, try restarting Visual Studio Code to resolve the issue.
 
 1. Clone this repository:
 
@@ -202,13 +206,17 @@ The workflow performs the following steps:
 
 ### Test Status Badge
 
-To display the test status badge for your repository, replace `[Your username]` and `[Your repository]` in the URL below:
+To display the test status badge for your repository, replace `[YourUsername]` and `[YourRepository]` in the URL below:
 
 ```markdown
-![Test Status](https://github.com/[Your username]/[Your repository]/actions/workflows/test.yml/badge.svg)
+![Test Status](https://github.com/[YourUsername]/[YourRpository]/actions/workflows/test.yml/badge.svg)
 ```
 
 For example, if your GitHub username is ain1084 and your repository is nuxt3-vuetify-vitest-template, use:
+
+```markdown
+![Test Status](https://github.com/ain1084/nuxt3-vuetify-vitest-template/actions/workflows/test.yml/badge.svg)
+```
 
 ![Test Status](https://github.com/ain1084/nuxt3-vuetify-vitest-template/actions/workflows/test.yml/badge.svg)
 

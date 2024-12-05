@@ -7,12 +7,21 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     'vuetify-nuxt-module',
   ],
+  vuetify: {
+    moduleOptions: {
+      // module specific options
+    },
+    vuetifyOptions: {
+      // vuetify options
+      theme: {
+        // dark mode
+        // defaultTheme: 'dark'
+      }
+    },
+  },
   vite: {
     css: {
       preprocessorOptions: {
-        sass: {
-          api: 'modern-compiler',
-        },
         scss: {
           api: 'modern-compiler',
         },
